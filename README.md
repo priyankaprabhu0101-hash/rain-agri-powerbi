@@ -14,4 +14,8 @@ Created relationships between Rain Year & Agricultural Year
 -- Average Rice Yield Avg Rice Yield = AVERAGE('rain-agriculture'[RICE YIELD (Kg per ha)])
  -- Max Rice Yield Max Rice Yield = MAX('rain-agriculture'[RICE YIELD (Kg per ha)]) -- Min Rice Yield (excluding zeros) Min Rice Yield = MINX( FILTER('rain-agriculture', 'rain-agriculture'[RICE YIELD (Kg per ha)] > 0), 'rain-agriculture'[RICE YIELD (Kg per ha)] ) 
  -- Repeating the same pattern for other crops
- Created Dashboards with this expressions
+ Created Decade Column to show 10 years representation of Green Revolution
+Also created the monsoon month index showing hightest rainfall in july
+Created Dashboards with these expressions
+Created 3 tabs Summary showing most important crops and the correlation of yield vs rainfall in states 
+tab contains a heatmap of average rainfall in states and side by side correlation of major yield average 
